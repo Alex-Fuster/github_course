@@ -11,7 +11,7 @@ species <- data.frame(
 )
 
 # Parameters
-n_generations <- 5
+n_generations <- 3
 branching_prob <- 0.5
 step_sd <- 0.06
 next_id <- 2
