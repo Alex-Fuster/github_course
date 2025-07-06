@@ -12,9 +12,9 @@ species <- data.frame(
 
 # Parameters
 n_generations <- 3
-branching_prob <- 0.5
+branching_prob <- 0.8
 step_sd <- 0.06
-next_id <- 2
+next_id <- 1
 
 for (g in 1:n_generations) {
   current_gen <- species %>% filter(gen == g - 1)
@@ -38,6 +38,8 @@ for (g in 1:n_generations) {
   }
 }
 
+
+print("HI")
 
 # Create edges
 edges <- species %>%
